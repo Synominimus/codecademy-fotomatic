@@ -10,9 +10,9 @@ html {
   top: 5.3125rem; /* To offset for fixed header. */
 }
 
-.banner {
-  background-image: url('resources/images/banner-landingpage.jpg');
-}
+/*.banner {
+  background-image: url('./resources/images/banner-landingpage.jpg');
+}*/
 
 .center {
   text-align: center;
@@ -128,8 +128,8 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
-  background-image: url('/banner-landingpage.jpg');
+  /* height: 43.5rem; */
+  background-image: url('./resources/images/banner-landingpage.jpg');
 }
 
 #sign-up-cta {
